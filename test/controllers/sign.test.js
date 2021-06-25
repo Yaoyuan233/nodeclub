@@ -12,9 +12,8 @@ var utility = require('utility');
 var tools = require('../../common/tools');
 
 describe('test/controllers/sign.test.js', function () {
-  var now = +new Date();
-  var loginname = 'testuser' + now;
-  var email = 'testuser' + now + '@gmail.com';
+  var loginname = 'testuser';
+  var email = 'testuser' + '@gmail.com';
   var pass = 'wtffffffffffff';
 
   afterEach(function () {
